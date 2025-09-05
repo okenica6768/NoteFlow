@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+  <meta charset="UTF-8">
+  <title>NoteFlow Admin</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>NoteFlow Admin</h1>
+  <div>
+    <label>Upload Notes (JSON):</label>
+    <input type="file" id="notesUpload">
+    <button id="uploadBtn">Upload & Approve</button>
+  </div>
+  <div>
+    <label>Freeze all users until:</label>
+    <input type="datetime-local" id="freezeUntil">
+    <button id="freezeBtn">Freeze</button>
+  </div>
+  <script src="firebase-config.js"></script>
+  <script src="admin.js"></script>
+</body>
+</html>
